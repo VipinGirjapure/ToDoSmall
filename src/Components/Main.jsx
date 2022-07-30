@@ -38,18 +38,18 @@ const Main = () => {
   return (
     <>
       {" "}
-      <div className="mt-4">
+      <div className="container mt-4">
         <h1 className="text-success mb-4"> TO DO LIST APP</h1>
         <input
           type="text"
           name="add-todo"
-          className="form-control shadow-none text-capitalize"
+          className="shadow-none text-capitalize text-center mt-2"
           placeholder="Enter New task"
           value={todo}
           onChange={handleInput}
         />
 
-        <button className="btn btn-warning mt-3" onClick={addTodo}>
+        <button className="btn btn-warning ms-2" onClick={addTodo}>
           Add
         </button>
         <ul className="list-group">

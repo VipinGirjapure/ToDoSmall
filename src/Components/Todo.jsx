@@ -5,7 +5,7 @@ const Todo = (props) => {
      
         <li className='list-group-item border-0 fs-5 text-capitalize'>{props.todoItem}</li>
           <button
-            className="btn btn-success px-2"
+            className="btn btn-success px-2 "
             onClick={() => {
               props.updateTodo(props.id);
             }}
@@ -22,7 +22,7 @@ const Todo = (props) => {
             </svg>
           </button>
           <button
-            className="btn btn-danger px-2 "
+            className="btn btn-danger px-2  ms-2"
             onClick={() => {
               props.deleteTodo(props.id);
             }}
